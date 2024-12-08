@@ -1,0 +1,279 @@
+body{
+    font-family: ClashGrotesk-Medium;
+}
+.mentor-hero,.mentor-hero2{
+    display: flex; 
+    margin-bottom: 10rem;  
+}
+.mentor-hero-img{
+    position: relative;
+    width: 55%;
+    
+}
+.mentor-hero-img1{
+    height: 100vh;
+    width: 90%;
+      
+}
+.mentor-hero-img2{
+    position: absolute;
+    top: 9.8px;
+    left: 48px;
+}
+.mentor-hero-text, .mentor-hero-text2{
+    padding:24px;
+    width: 45%;
+    height: 100vh;
+}
+.mentor-hero-text1{
+    text-align: center;
+}
+.mentor-hero-text h3{ 
+    margin-top: 2rem;
+    color: #0F172A;
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+.upload-text{
+    margin-bottom: 1rem;
+}
+.progress{
+    border-radius: 5px;
+    height: 10px;
+}
+.G-div{
+    display: flex;
+}
+.G-div .my-select{
+    padding: 7px;
+    
+}
+.clear-div{
+    border: 0.2px solid #d4d5d6;
+    padding: 10px;
+    border-radius: 20px;
+}
+.input-set{
+    border-radius: 15px;
+}
+.clear-img{
+    width: 32px;
+    height: 32px;
+    margin: 5px 8px 0 0;
+}
+.btn{
+    height: 56px;
+    background-color: #FF6A00;
+    border-style: none;
+    border-radius: 12px;
+    width: 100%;
+    color: white;
+}
+select{
+    height: 58px;
+    width: 100%;
+    color: #091B3D;
+    border-radius: 15px;
+}
+
+
+/* Page-2 */
+.mentor-hero-text2 h3{
+    margin-top: 2rem;
+    color: #0F172A;
+    font-size: 50px;
+    margin-bottom: 2rem;
+
+}
+.input-group-text input{
+    border: none;
+}
+.input-set2 input{
+    border-radius: 10px;
+    border: 1px solid 3297fd;
+
+}
+input[type="text"]{
+    border: none;
+    border: 1px solid #1616941A;
+    margin-bottom: 27px;
+    padding: 15px;
+
+}
+
+
+/* page3 */
+.form-check{
+    border: 1px solid #1616941A;
+    border-radius: 10px;
+    /* padding: 5px; */
+    margin-bottom: 1rem;
+
+}
+.form-check-input{
+    padding: 5px;
+
+}
+.form-check-label{
+    margin-right: 300px;
+}
+
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between the input and label */
+}
+.custom-checkbox input[type="checkbox"] {
+    width: 60px;
+    height: 60px;
+    border: 1px solid red;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.custom-checkbox input[type="checkbox"]:checked {
+    background-color: #f8d7da; /* Light red background when checked */
+}
+
+
+/* page-4 */
+.input-group textarea{
+    color:#64748B;
+    height: 130px;
+    margin-bottom: 2rem;
+}
+#textarea{
+    border: 1px solid #d4d5d6;
+    height: 25vh;
+}
+
+
+
+/* page 5 */
+ #formcheck{
+    border-style: none;
+    padding: -35px;
+    margin-top: 1.8rem;
+} 
+.btn-1{
+    height: 56px;
+    background-color: #FF6A00;
+    border-style: none;
+    border-radius: 12px;
+    width: 50%;
+    color: white;
+
+}
+.button-1{
+    border: none;
+    background-color: white;
+    margin-left: 50%;
+}
+.button-2{
+    border: none;
+    background-color: white;
+    margin-left: 38%;
+}
+.button-3{
+    border: none;
+    background-color: white;
+    margin-left: 34%;
+}
+.available-set{
+    border: 1px solid #d4d5d6;
+    padding: 0.5rem;
+    border-radius: 9px;  
+}
+.Customize{
+    border: 1px solid #d4d5d6;
+    padding: 0.5rem;
+    border-radius: 9px;  
+    margin-top: 1.5rem;
+}
+.Customize2{
+    border: 1px solid #d4d5d6;
+    padding: 0.5rem;
+    border-radius: 9px;  
+    margin-top: 1rem;
+
+}
+
+@media screen and (max-width:768px) {
+    .mentor-hero,.mentor-hero2{
+        display: flex; 
+        margin-bottom: 10rem;  
+    }
+    .mentor-hero-text{
+        padding: 2px;
+        width: 45%;
+        height: 100vh;
+    }
+    .mentor-hero-text h3{ 
+        margin-top: 2rem;
+        color: #0F172A;
+        font-size: 30px;
+        margin-bottom: 2rem;
+    }
+    .upload-text{
+        margin-bottom: 2rem;
+    }
+    .G-div .my-select{
+        padding: 3px;
+        
+    }
+    .clear-div{
+        border: 0.2px solid #d4d5d6;
+        padding: 3px;
+        border-radius: 20px;
+    }
+    .btn{
+        height: 36px;
+        background-color: #FF6A00;
+        border-style: none;
+        border-radius: 12px;
+        width: 100%;
+        color: white;
+    }
+    select{
+        height: 58px;
+        width: 100%;
+        color: #091B3D;
+        border-radius: 15px;
+    }
+    .G-div div img{
+        width: 80%;
+    }
+
+
+
+    /* page 2 */
+    .mentor-hero-text2 h3{
+        font-size: 30px;
+    }
+    #input-group1{
+        left: 5px;
+    }
+
+
+    /* page 3 */
+    #checkme1{
+        width: 100%;
+        height: 40px;
+    }
+    #check1,#check2,#check3,#check4,#check4{
+        padding: 1% 10% 2% 2%;
+    }
+    #reverseCheck1{
+        width: 10px;
+        height: 10px;
+
+    }
+    #check2{
+        width: 30%;
+        margin-right: 5%;
+
+    }
+    
+}
